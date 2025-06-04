@@ -1,6 +1,24 @@
-# 데이터분석전문가 실기 준비를 위한 정리
+# Data Science Study Repository
 
-- `all_ml.ipynb`: 머신러닝 파트 통합 정리 파일
-- `all_statistics.ipynb`: 통계분석 파 통합 정리 파일
-- `nlp.ipynb`: 자연어 처리 대비용 파일
-- `final.ipynb`: 위 파일들을 통합한 파일
+This repository contains notebooks and example scripts used to prepare for the ADP/Data Scientist exam.
+
+## Notebooks
+- `all_ml.ipynb`: consolidated machine learning notes
+- `all_statistics.ipynb`: consolidated statistics notes
+- `nlp.ipynb`: natural language processing notes
+- `final.ipynb`: combined notebook of all topics
+
+## Scripts
+- `src/train_logistic_regression.py`: simple example of training a logistic regression model on the Iris dataset. The trained model is saved as `iris_log_reg.joblib`.
+
+## Setup
+Install dependencies using:
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+Run the example training script with:
+```bash
+python src/train_logistic_regression.py
+```
